@@ -43,7 +43,7 @@ class Register extends React.Component {
 
   render() {
     return (
-      <article className='br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center'>
+      <article className='br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center color-white'>
         <main className='pa4 black-80'>
           <div className='measure'>
             <fieldset id='sign_up' className='ba b--transparent ph0 mh0'>
@@ -53,7 +53,7 @@ class Register extends React.Component {
                   Name
                 </label>
                 <input
-                  className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
+                  className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 rounded-border'
                   type='text'
                   name='name'
                   id='name'
@@ -65,7 +65,7 @@ class Register extends React.Component {
                   Email
                 </label>
                 <input
-                  className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
+                  className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 rounded-border'
                   type='email'
                   name='email-address'
                   id='email-address'
@@ -77,7 +77,7 @@ class Register extends React.Component {
                   Password
                 </label>
                 <input
-                  className='b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
+                  className='b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 rounded-border'
                   type='password'
                   name='password'
                   id='password'
@@ -88,7 +88,7 @@ class Register extends React.Component {
             <div className=''>
               <input
                 onClick={this.onSubmitSignIn}
-                className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
+                className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib rounded-border'
                 type='submit'
                 value='Register'
               />
